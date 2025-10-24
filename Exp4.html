@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <tittle>Hotel Room Booking Form</tittle>
+    </head>
+    <body>
+   <h1 align="center">Hotel Room Booking Form </h1>
+   <form action="#" method="post" >
+   
+    
+        <!--Personal Information-->
+        <fieldset>
+
+     <legend><b>Personal Information </b></legend>
+    <Label for="name">First Name:</Label><br>
+    <input type="text" id="name" placeholder="Enter Your Name"" required> <br>
+    <label for="phone">Phone no:</label><br>
+    <input type="tel" id="phone" placeholder="=Enter Your Phone No " required> <br>
+    <label for="email">Email id : </label><br>
+    <input type="text" id="email" placeholder="Enter Your Email"> <br>
+     </fieldset>
+     <br>
+      
+     <!--Booking Details-->
+     <fieldset>
+        <legend><b>Booking details </b> </legend>
+        <label for="Checkin">Checkin:</label> <br>
+        <input type="date" id="checkin" name="checkin" required><br>
+        <label for ="checkout">Checkout :</label><br>
+        <input type="date" id="Checkout" Name="Checkout"  required><br>
+        <label for="guests">Number of Guests:</label>
+      <input type="number" id="guests" name="guests" min="1" max="10" required>
+      <br><br>
+
+       <label for="room">Room Type:</label>
+      <select id="room" name="room">
+        <option value="single">Single Room</option>
+        <option value="double">Double Room</option>
+        <option value="suite">Suite</option>
+        <option value="deluxe">Deluxe Room</option>
+      </select>
+      <br><br>
+    </fieldset>
+
+    <br>
+
+    <!-- Additional Requests -->
+    <fieldset>
+      <legend><b>Additional Requests</b></legend>
+      <label for="requests">Special Requests:</label><br>
+      <textarea id="requests" name="requests" rows="5" cols="40"></textarea>
+    </fieldset>
+
+    <br>
+     <!-- Buttons -->
+    <button type="submit">Book Now</button>
+    <button type="reset">Reset Form</button>
+
+  
+     </fieldset>
+     </form>
+
+
+    
+
+   
+</body>
+</html>
+    
