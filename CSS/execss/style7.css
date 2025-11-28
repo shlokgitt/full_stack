@@ -8,7 +8,7 @@ body {
 .block-menu a {
   display: block;
   background-color: #34dbc5;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 10px;
   margin: 5px 0;
   text-decoration:dashed;
