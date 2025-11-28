@@ -32,7 +32,7 @@ h1 {
 .product-box img {
     width: 100%;         /* Image takes full box width */
     height: auto;        /* Keep image proportion */
-    border-radius: 5px;          /* Slightly rounded image corners */
+    border-radius: 10px;          /* Slightly rounded image corners */
 }
 
 /* Product Title */
@@ -51,9 +51,9 @@ h1 {
 
 /* Product Price */
 .price {
-    color: red;                      /* Red price text */
+    color: rgb(55, 0, 255);                      /* Red price text */
     font-weight: bold;               /* Bold text */
-    margin-bottom: 15px;             /* Space below price */
+    margin-bottom: 14px;             /* Space below price */
 }
 
 /* Button Styling */
@@ -63,7 +63,7 @@ button {
     padding: 10px 20px;  
       /* Inner space (top-bottom, left-right) */
     border: none;                    /* No border */
-    border-radius: 5px;              /* Rounded button corners */
+    border-radius: 5px;             /* Rounded button corners */
 }
 
 /* Button hover effect */
