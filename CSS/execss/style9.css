@@ -14,7 +14,7 @@ body{
   margin:0;
   font-family: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
   background:var(--bg);
-  color: red;
+  color: rgb(0, 255, 30);
 }
 
 .header{
