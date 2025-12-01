@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query </title>
+    <style>
+        body{
+            margin:0;
+            padding:20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: lightsalmon;
+
+        }
+        h1{
+            color: aliceblue;
+            text-align:center;
+        }
+        .box{
+            padding:20px;
+            background-color:aliceblue;
+            text-align: center;
+            font-size:22px;
+            font-family:'Courier New', Courier, monospace;
+            border-radius: 10px;
+            margin:30px;
+            color:black;
+        }
+        .desktop-view{
+            padding:22px;
+            font-size: 22px;
+            margin:30px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 22px;
+            border-radius:10px;
+            color:black;
+            background-color:aliceblue;
+            text-align:center;
+
+        }
+        @media(max-width:600px){
+            .desktop-view{
+                width: 100%;
+                background:orange;
+            }
+        }
+        @media(min-width:786){
+            .box{
+                width:768px;
+                background:rgb(238, 144, 200);
+            }
+        }
+        @media(orientation: landscape){
+            body{
+                background: purple;
+                color:blue;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Media Query Example </h1>
+    <div class="box">
+        Mobile View First
+    </div>
+    <div class="desktop-view">
+        Desktop-view
+    </div>
+
+</body>
+</html>
