@@ -104,6 +104,9 @@ body{
   text-decoration:none;
   font-weight:700;
   box-shadow:0 6px 10px rgba(11,132,255,0.18);
+  background-color: lightblue; /* New background color on hover */
+  transform: scale(1.05); /* Scale up by 5% on hover */
+
 }
 
 @media (max-width:1000px){
@@ -144,3 +147,5 @@ h2{
     font-size: large;
     background-color: darkgreen;
 }
+
+  
