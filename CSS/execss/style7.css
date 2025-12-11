@@ -4,13 +4,13 @@ body {
   margin: 30px;
 }
 
-/* Block Example */
+/* Block Example */ 
 .block-menu a {
   display: block;
   background-color: #34dbc5;
   color: rgb(255, 255, 255);
   padding: 10px;
-  margin: 5px 0;
+  margin: 5px 0; 
   text-decoration:dashed;
 }
 
