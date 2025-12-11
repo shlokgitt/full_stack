@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navgation menu webpage</title>
+</head>
+<style>
+    /* General styling */
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin: 30px;
+}
+
+/* Block Example */ 
+.block-menu a {
+  display: block;
+  background-color: #34dbc5;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 5px 0; 
+  text-decoration:dashed;
+}
+
+/* Inline Example */
+.inline-menu a {
+  display: inline;
+  background-color: #2ecc71;
+  color: white;
+  padding: 6px;
+  margin: 6px;
+  text-decoration: none;
+}
+
+/* Inline-Block Example */
+.inline-block-menu a {
+  display: inline-block;
+  background-color: #9b59b6;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+/* Float Example */
+.float-menu a {
+  float: left;
+  background-color: #e67e22;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+h1{
+    text-align: center;
+}
+</style>
+<body>
+    <h1 align ="center">Navigation Menu Demo</h1>
+
+  <!-- Block Example -->
+  <h2>Block Example</h2>
+  <div class="block-menu">
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <!-- Inline Example -->
+  <h2>Inline Example</h2>
+  <div class="inline-menu">
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <!-- Inline-Block Example -->
+  <h2>Inline-Block Example</h2>
+  <div class="inline-block-menu">
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <!-- Float Example -->
+  <h2>float Example</h2>
+  <div class="float-menu">
+    <a href="#">Home</a> 
+    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <div class="clear"></div>
+  </div>
+
+</body>
+</html>
